@@ -4,3 +4,5 @@
 
 ## Project Name
 DevNotes
+
+# Features
