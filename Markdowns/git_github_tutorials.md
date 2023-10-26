@@ -65,7 +65,6 @@ Since the branch has no conflicts with the base branch, you can complete the pul
 
 
 ## Git Rebase or Git Merge
-
 Let's say that the main branch has more commits than what your local branch has and the work you need to do is relevant to the feature that you are working on. To incorporate the changes in the main branch into your branch, you can use ```git merge``` or ```git rebase```.
 - first swith over to the main branch by typing ```git checkout main``` in your terminal. You can use ```git branch``` to view which branch you are currently on (green is the current branch).
 - Next, type ```git pull``` to pull those new commits. 
