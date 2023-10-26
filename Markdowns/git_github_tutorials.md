@@ -6,14 +6,18 @@
 ### Create a branch
 
 Currently, your github page should only have a main branch:
+
 ![Alt text](<images/main github page.png>)
 
 ```git branch``` - allows you to see what current branch you are on
+
 ![Alt text](<images/git branch.png>)
 
 ```git checkout -b branch-name``` - allows you to create a new branch in the same repository
+
 ![Alt text](<images/git checkout -b.png>)
-- from here you can add files and make changes to the files. Once that is done, you can use ```git add . ``` and ```git commit -m ``` to push. 
+
+from here you can add files and make changes to the files. Once that is done, you can use ```git add . ``` and ```git commit -m ``` to push. 
 
 ![Alt text](<images/git add and commit.png>)
 
