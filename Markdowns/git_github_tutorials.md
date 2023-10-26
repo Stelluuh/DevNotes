@@ -98,3 +98,4 @@ you can either add a commit message or just leave it as it and once you exit tha
 you can now use ```git push``` to push the changes into the remote branch.
 
 ## Merge Conflicts
+[Click here to resolve merge conflics in VScode](https://code.visualstudio.com/docs/sourcecontrol/overview#_merge-conflicts)
