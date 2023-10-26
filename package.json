@@ -1,0 +1,22 @@
+{
+  "name": "devnotes",
+  "version": "1.0.0",
+  "description": "# Project Description This is a simple note taking app that allows users to create, edit, and delete notes. The app is built using React and Node/Express.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stelluuh/DevNotes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stelluuh/DevNotes/issues"
+  },
+  "homepage": "https://github.com/Stelluuh/DevNotes#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
