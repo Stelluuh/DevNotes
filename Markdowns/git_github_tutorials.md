@@ -1,4 +1,4 @@
-# Collaborating using Git and Gihub | Branches, Pull Requests, Merging vs Rebasing:
+# Collaborating using Git and Github | Branches, Pull Requests, Merging vs Rebasing:
 
 ## Branching in Git/Github
 - If project has many features, you should create a branch for each contained feature. These are merged into the main branch once your changes are finalized.
