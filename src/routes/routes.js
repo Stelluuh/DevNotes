@@ -1,7 +1,10 @@
 const routes = (app) => {
-    app.route('/note')// contact allows us to have get, post, put, & delete commands
-    .get((req,res) =>
+    //Routes for NOTES model
+    app.route('/note')
+    .get((req,res) => {
+       
         res.send('GET request successful')
+    }
     )
 
     .post((req,res) => 
