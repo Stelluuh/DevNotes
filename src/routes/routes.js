@@ -1,6 +1,6 @@
 const routes = (app) => {
-    //Routes for NOTES model
-    app.route('/note')
+    //Routes for TIMER model
+    app.route('/timer')
     .get((req,res) => {
        
         res.send('GET request successful')
@@ -11,7 +11,7 @@ const routes = (app) => {
         res.send('POST request successful') 
     )
 
-    app.route('/note/:noteId')
+    app.route('/timer/:noteId')
     .put((req,res)=>
         res.send('PUT request successful')
     )
