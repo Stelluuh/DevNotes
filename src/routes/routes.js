@@ -1,5 +1,5 @@
 const routes = (app) => {
-    app.route('/contact')// contact allows us to have get, post, put, & delete commands
+    app.route('/note')// contact allows us to have get, post, put, & delete commands
     .get((req,res) =>
         res.send('GET request successful')
     )
@@ -8,7 +8,7 @@ const routes = (app) => {
         res.send('POST request successful') 
     )
 
-    app.route('/contact/:contactId')
+    app.route('/note/:noteId')
     .put((req,res)=>
         res.send('PUT request successful')
     )
