@@ -12,5 +12,9 @@ This is a simple note taking app that allows users to create, edit, and delete n
 - mongoose
 - babel
 
+# Tools Used
+- postman
+- studio 3T for mongoDB
+
 
 
