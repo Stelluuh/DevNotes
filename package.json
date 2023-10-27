@@ -17,7 +17,15 @@
   },
   "homepage": "https://github.com/Stelluuh/DevNotes#readme",
   "dependencies": {
+    "body-parser": "^1.20.2",
     "express": "^4.18.2",
-    "mongoose": "^7.6.3"
+    "mongoose": "^7.6.3",
+    "nodemon": "^3.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.2",
+    "@babel/node": "^7.22.19",
+    "@babel/preset-env": "^7.23.2"
   }
 }

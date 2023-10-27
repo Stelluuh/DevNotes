@@ -1,0 +1,5 @@
+{
+    "presets": [
+        "@babel/preset-env" //when we compile a code, we are making sure we compile the latest version of Javascript into readable code for our server so it can run.
+    ]
+}
