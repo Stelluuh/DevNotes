@@ -1,8 +1,20 @@
 import express from 'express';
+import mongoose from 'mongoose';
+import bodyParser from 'body-parser';
 import routes from './src/routes/routes';
 
 const app = express();
 const PORT = 3000;//port our server is going to run
+
+//mongoose connection
+mongoose.Promise = global.Promise;
+mongoose.connect('mongodb://localhost/DEVNOTESdb', {
+    useNewUrlParser: true
+})
+
+//bodyparser setup
+app.use(bodyParser.urlencoded({ extended: true}))
+app.use(bodyParser.json());
 
 routes(app);
 
