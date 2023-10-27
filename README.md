@@ -13,8 +13,8 @@ This is a simple note taking app that allows users to create, edit, and delete n
 - babel
 
 # Tools Used
-- postman
-- studio 3T for mongoDB
+- postman: used to test API endpoints
+- studio 3T for mongoDB: used to view database
 
 
 
